@@ -1,0 +1,69 @@
+        h1{
+
+            text-align: center;
+            color: brown;
+            text-decoration: underline;
+            font-size: 70px;
+            background-color: rgb(213, 193, 213);
+            
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+        }
+        nav a{
+            font-weight:bold;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .vegcard{
+            width: 300px;
+            border: 3px solid brown;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+
+            
+            
+           
+        }
+        .vegcard:hover{
+            transform: scale(1.05);
+        }
+        .vegcard h2{
+            color: red;
+            text-decoration: underline;
+
+        }
+        .vegcard h3{
+            color: brown;
+        }
+        .vegcard p{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 200;
+        }
+        .vegcard button{
+            background-color: green;
+            color: black;
+        }
+        .vegcard button:hover{
+            background-color: bisque;
+            color: black;
+        }
+        .vegcard img{
+            object-fit: contain;
+            height: 300px;
+            width: 100%;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 70px;
+            gap: 40px;
+            
+        }

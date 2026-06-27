@@ -1,0 +1,26 @@
+h1{
+    color: rgb(0, 38, 255);
+    background-color: aqua;
+    
+}
+
+.myclass1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.myclass2{
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+#myid{
+    color: darkmagenta;
+    background-color: aquamarine;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 10px;
+    line-height: 20px;
+}
