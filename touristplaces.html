@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function touristPlace(){
+            let place;
+            place = document.getElementById("location").value;
+            if(place == "Hyderabad"){
+                document.getElementById("msg").innerHTML = "Visit Charminar";
+            }
+            else if(place == "Vizag"){
+                document.getElementById("msg").innerHTML = "Visit RK beach";
+            }
+            else{
+                document.getElementById("msg").innerHTML = "Visit Durga Temple";
+            }
+        }
+    </script>
+</head>
+<body>
+    <label for="">Enter the location</label>
+    <select name="" id="location" onchange="touristPlace()">
+        <option value="select location" selected disabled>Select location</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Vizag">Vizag</option>
+        <option value="Vijayawada">Vijayawada</option>
+    </select>
+    <h1 id="msg"></h1>
+
+    
+</body>
+</html>

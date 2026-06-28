@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkName(){
+            let name = document.getElementById("name").value;
+            if(name == ""){
+                document.getElementById("msg").innerHTML = "Name is required";
+            }
+            else{
+                document.getElementById("msg").innerHTML = "";
+            }
+        }
+    </script>
+</head>
+<body>
+    <label for="">Enter Name</label>
+    <input type="text" id="name" onblur="checkName()">
+
+    <p id="msg"></p>
+</body>
+</html>
