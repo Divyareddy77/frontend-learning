@@ -71,4 +71,17 @@ function user(callback){
  setTimeout(message,3000);
 
 
- 
+
+
+
+
+ //Event capturing
+let div = document.getElementById("parent");
+let btn = document.getElementById("child");
+div.addEventListener("click",function(){
+    alert("Div clicked");
+},true);
+btn.addEventListener("click", function(){
+    alert("Button clicked");
+},true);
+

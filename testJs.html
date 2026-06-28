@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="myscript.js"></script>
+    <script src="myscript.js" defer></script>
+
 </head>
 <body>
+    <!--Event bubbling-->
+    <h3>Event bubbling</h3>
     <div onclick="alert('Div clicked')">
         <button onclick="alert('Button clicked')">Click Me</button>
+        <br>
+        <br>
 
+    </div>
+
+
+    <!--Event capturing-->
+    <h3>Event capturing</h3>
+    <div id="parent">
+    <button id="child">click me</button>
     </div>
 </body>
 </html>
